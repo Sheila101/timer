@@ -10,7 +10,6 @@ const beep = function (secondsInputed) {
     if(second > 0){
         setTimeout(() => {
           process.stdout.write('\x07');
-          //console.log('\x07');
         }, second);
     }
   }
