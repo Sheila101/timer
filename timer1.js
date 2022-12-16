@@ -15,6 +15,5 @@ const beep = function (secondsInputed) {
   }
 };
 
-//console.log(valuesInSecs);
 beep(valuesInSecs); 
 
